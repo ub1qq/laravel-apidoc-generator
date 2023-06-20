@@ -17,7 +17,7 @@ PHP 7.2 and Laravel/Lumen 5.7 or higher are required.
 > If your application does not meet these requirements, you can check out the 3.x branch for older releases.
 
 ```sh
-composer require --dev mpociot/laravel-apidoc-generator
+composer require --dev ub1qq/laravel-apidoc-generator
 ```
 
 ### Laravel
@@ -30,7 +30,7 @@ php artisan vendor:publish --provider="Mpociot\ApiDoc\ApiDocGeneratorServiceProv
 This will create an `apidoc.php` file in your `config` folder.
 
 ### Lumen
-- When using Lumen, you will need to run `composer require mpociot/laravel-apidoc-generator` instead.
+- When using Lumen, you will need to run `composer require ub1qq/laravel-apidoc-generator` instead.
 - Register the service provider in your `bootstrap/app.php`:
 
 ```php
